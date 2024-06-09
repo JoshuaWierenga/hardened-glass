@@ -3,15 +3,15 @@
 	"id": "hardenedglass",
 	"version": "${version}",
 	"name": "Hardened Glass",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "",
 	"authors": [
-		"Me!"
+		"Joshua Wierenga"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/UTAS-Programming-Club/HardenedGlass"
 	},
-	"license": "CC0-1.0",
+	"license": "",
 	"icon": "assets/hardenedglass/icon.png",
 	"environment": "*",
 	"entrypoints": {
