@@ -1,4 +1,4 @@
-package au.com.programmingclub.hardglass.mixin.client;
+package au.com.programmingclub.hardenedglass.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

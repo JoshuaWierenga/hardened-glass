@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "au.com.programmingclub.hardglass.mixin.client",
+	"package": "au.com.programmingclub.hardenedglass.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ExampleClientMixin"
+	"mixins": [
+		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

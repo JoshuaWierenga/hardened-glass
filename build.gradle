@@ -23,7 +23,7 @@ loom {
     splitEnvironmentSourceSets()
 
 	mods {
-		"hardened-glass" {
+		"hardenedglass" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

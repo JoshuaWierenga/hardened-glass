@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "hardened-glass",
+	"id": "hardenedglass",
 	"version": "${version}",
 	"name": "Hardened Glass",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,26 +12,26 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/hardened-glass/icon.png",
+	"icon": "assets/hardenedglass/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "au.com.programmingclub.hardglass.HardenedGlass",
+				"value": "au.com.programmingclub.hardenedglass.HardenedGlass",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "au.com.programmingclub.hardglass.HardenedGlassClient",
+				"value": "au.com.programmingclub.hardenedglass.HardenedGlassClient",
 				"adapter": "kotlin"
 			}
 		]
 	},
 	"mixins": [
-		"hardened-glass.mixins.json",
+		"hardenedglass.mixins.json",
 		{
-			"config": "hardened-glass.client.mixins.json",
+			"config": "hardenedglass.client.mixins.json",
 			"environment": "client"
 		}
 	],

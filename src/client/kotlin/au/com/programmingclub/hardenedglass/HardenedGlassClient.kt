@@ -1,4 +1,4 @@
-package au.com.programmingclub.hardglass
+package au.com.programmingclub.hardenedglass
 
 import net.fabricmc.api.ClientModInitializer
 

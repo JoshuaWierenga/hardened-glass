@@ -1,4 +1,5 @@
-nppBackup
+# Joshua has notepad++ backups enabled and has no need to commit them
+nppBackup/
 
 # gradle
 
