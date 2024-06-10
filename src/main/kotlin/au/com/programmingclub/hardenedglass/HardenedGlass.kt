@@ -3,7 +3,7 @@ package au.com.programmingclub.hardenedglass
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.block.AbstractBlock
-import net.minecraft.block.Block
+import net.minecraft.block.TransparentBlock
 import net.minecraft.item.BlockItem
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroups
@@ -18,7 +18,7 @@ object HardenedGlass : ModInitializer {
   private val logger = LoggerFactory.getLogger(namespace)
 
   private val HardenedGlassIdentifier = Identifier(namespace, "hardened_glass")
-  public val HardenedGlassBlock = Block(
+  public val HardenedGlassBlock = TransparentBlock(
     AbstractBlock.Settings.create()
     .hardness(10f)
     .resistance(9f)
