@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "hardenedglass:block/hardened_glass"
+    "all": "hardenedglass:block/hardened_glass/hardened_glass"
   }
 }
