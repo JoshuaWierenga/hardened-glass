@@ -18,10 +18,11 @@ object HardenedGlass : ModInitializer {
   private val logger = LoggerFactory.getLogger(namespace)
 
   private val HardenedGlassIdentifier = Identifier(namespace, "hardened_glass")
-  private val HardenedGlassBlock = Block(
+  public val HardenedGlassBlock = Block(
     AbstractBlock.Settings.create()
     .hardness(10f)
     .resistance(9f)
+    .nonOpaque()
   )
   private val HardenedGlassItem = BlockItem(HardenedGlassBlock, Item.Settings())
 
